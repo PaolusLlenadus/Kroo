@@ -12,6 +12,10 @@ Rails.application.routes.draw do
 
   resources :users
   
+  get "/privacy" => "home#privacy", as: :privacy
+  get "/about" => "home#about", as: :about
+  get "/contact" => "home#contact", as: :contact
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
