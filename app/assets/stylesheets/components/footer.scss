@@ -11,14 +11,3 @@ footer {
     }
   }
 }
-
-html, body { height: 100%; margin: 0; }
-#container {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto [footer-height];
-}
-#footer, #push {
-  height: [footer-height];
-}
